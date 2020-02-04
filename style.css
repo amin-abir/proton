@@ -273,3 +273,16 @@ position: relative;
 top: 40px;
 }
 }
+
+@media(min-width:991px){
+  .proton__service__block{
+      margin-bottom:30 px;
+}
+}
+
+@media(min-width:1200px){
+    .proton__solution__image{
+        position: relative;
+        left: -60px;
+    }
+}
