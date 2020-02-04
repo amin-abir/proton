@@ -253,7 +253,9 @@ h3,
     transition: all 0.3s ease 0s;
     text-align: center;
 }
-
+.proton__service__block{
+    margin-bottom: 30px;
+}
 .proton__service__block i{
     font-size: 20px;
     color: #21146a;
@@ -263,4 +265,11 @@ h3,
     text-align: center;
     font-size: 22px;
     padding-bottom: 15px;
+}
+
+@media(min-width:991px){
+    .proton__service__wrapper .proton__service__block:nth-child(even){
+position: relative;
+top: 40px;
+}
 }
